@@ -39,8 +39,7 @@
                 Editar
                 </a>
 
-                </td>
-                <td>
+
 
                 <form action="{{ url('/order/'.$order->id )}}" method="post">
                 @csrf

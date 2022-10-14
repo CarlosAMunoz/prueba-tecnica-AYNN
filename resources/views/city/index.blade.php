@@ -37,9 +37,6 @@
                 Editar
                 </a>
 
-                </td>
-                <td>
-
                 <form action="{{ url('/city/'.$city->id )}}" method="post">
                 @csrf
                 {{ method_field('DELETE') }}

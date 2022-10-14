@@ -41,8 +41,6 @@
                 Editar
                 </a>
 
-                </td>
-                <td>
 
                 <form action="{{ url('/customer/'.$customer->id )}}" method="post">
                 @csrf
